@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My Dashboard </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<section id="home">
+    <h1> <marquee>~Welcome to Jiann's Dashboard~</marquee></h1>
+</section>
+<style>
+    body {
+        background-color: whitesmoke;
+        color: #2D3748;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        margin: 20px;
+        text-align: center;
+    }
+    .dashboard-container {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #f8f9fa;
+        min-height: 100vh;
+    h1 { 
+        color: 2c3e50; 
+        margin-bottom: 10px; 
+     }
+    .dash-card {
+        background: white;
+        width: 250px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rg0(0,0,0,0,.05);
+        transition: transform 0.3s ease, box-shadow 0.3 ease;
+        border:  1px solid #eee;
+    }
+    .dash-card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    .card {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .dash-card h3 {
+        margin: 10px 0;
+        color: #34495e
+    }
+    .btn {
+        text-decoration: none;
+        color: #3498db;
+        font-weight: bold;
+        border: 2px solid #3498db;
+        padding: 8px 15px;
+        border-radius: 50px;
+        transition: 0.3s;
+    }
+    .btn:hover{
+        background-color: #3498db;
+        color: white;
+    }
+}
+</style>
+<main>
+    <h1><sup>^-^</sup> Project Dashboard <sup>^-^</sup></h1>
+    <h4> ~~~~~<i> Hi there! In this page you can find all my activities scores.</i>~~~~~</h4>
+    <nav class="navbar">
+        <ul>
+        <div class="card-container">
+        <div class="card">
+            <h3> Quiz Scores</h3>
+            <li><a href="quiz-upload.html" class="button"> View Image </a></li>  
+        </div>
+        <div class="card">
+            <h3> Lab Work Score</h3>
+            <li><a href="labwork-upload.html" class="button"> View Image</a></li>
+        </div>
+        <div class="card">
+            <h3> Major Exams</h3>
+            <li><a href="exam-upload.html" class="button">View Image</a></li>
+        </div>
+    </div>
+    </ul>
+    </nav>
+</main>
+
+
+</body>
+</html>
