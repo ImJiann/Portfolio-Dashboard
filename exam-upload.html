@@ -14,13 +14,31 @@
         img {
             margin: 10px;
         }
+    .exam-card {
+      background-color: #ddd6d6;
+      border-radius: 4px;   
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .exam-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .exam-img {
+      width: 40%;
+      height: auto;
+      display: block;
+
+      filter: contrast(1.15) brightness(1.2) saturate(0.85);
+    }
     </style>
     <div class="exam-upload.html">
-        <div class="exam">
-            <h3> Midterm Exam </h3>
-            <input type="file" id="file-upload" class="hidden-input">
-            <label for="file-upload" class="custom-file upload"></label>
-            <button type="submit" class="aesthetic-btn">Submit</button>
+        <h1> Midterm and Final Exams</h1>
+         <div class="exam-card">
+      <img src="midterm exam.png" alt="Quiz 06" class="exam-img">
+    </div>
      <h3> Final Exam </h3>
             <input type="file" id="file-upload" class="hidden-input">
             <label for="file-upload" class="custom-file upload"></label>
